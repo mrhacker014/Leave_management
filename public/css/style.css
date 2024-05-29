@@ -1,0 +1,190 @@
+.divider-text {
+     position: relative;
+     text-align: center;
+     margin-top: 15px;
+     margin-bottom: 15px;
+}
+
+.divider-text span {
+     padding: 7px;
+     font-size: 12px;
+     position: relative;
+     z-index: 2;
+}
+
+.divider-text:after {
+     position: absolute;
+     width: 100%;
+     border-bottom: 1px solid #ddd;
+     top: 55%;
+     left: 0;
+     z-index: 1;
+}
+
+.btn-facebook {
+     background-color: #405D9D !important;
+     color: #fff !important;
+}
+
+.fa-facebook-f {
+     padding: 5px;
+}
+
+.btn-gmail {
+     background-color: #ea4335 !important;
+     color: #fff !important;
+}
+
+.fa-google {
+     padding: 5px;
+}
+
+.home-section {
+     padding-top: 16%;
+     padding-bottom: 16%;
+     padding-left: 13%;
+     padding-right: 13%;
+     color: yellow;
+     font-weight: 700;
+}
+
+.home-contener {
+     background-image: url('https://www.bonigala.com/wp-content/uploads/2013/01/holiday-mood.jpg');
+     background-size: 100% 600px;
+     background-position: center;
+}
+
+.about-section {
+     padding-left: 5%;
+     padding-right: 5%;
+     padding-top: 2%;
+     padding-bottom: 1%;
+     margin-bottom: 0;
+     font-size: 18px;
+     font-weight: 400;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-contaner {
+     background-color: #f8f9fa;
+}
+
+/* /* admin profile page start * */
+.personal-container {
+     margin-top: 5%;
+     margin-left: 25%;
+     margin-bottom: 5%;
+     width: 50%;
+     height: 600px;
+     background-color: slateblue;
+     border-radius: 10px;
+     box-shadow: 0 17px 25px rgba(0, 0, 0, .7);
+     padding: 40px 20px;
+     color: white;
+     position: relative;
+}
+
+.personal-photo {
+     width: 120px;
+     height: 140px;
+     border-radius: 50%;
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+     top: -50px;
+     border: solid 3px rgb(5, 236, 5);
+}
+
+.profile-text {
+     position: absolute;
+     margin-top: 50px;
+     margin-left: 4%;
+     font-size: 27px;
+     padding: 25px;
+     text-align: justify;
+     font-family: cursive;
+}
+
+.profile-heading {
+     font-weight: bolder;
+     color: rgba(0, 0, 0, 0.856);
+     padding: 30px 0 30px 30px;
+}
+
+.profile-sub-heading {
+     font-size: 20px;
+}
+
+.l-edit-btn {
+     margin-left: 17%;
+}
+/* admin profile end */
+/* employees list table  start*/
+.main-div {
+     background-color: slateblue;
+}
+
+.user-table {
+  width: 95%;
+  margin-left: 2.5%;
+  padding-bottom: 2.5%;
+} 
+
+.list-heading {
+     font-size: 30px;
+     color: #000;
+     font-weight: bold;
+     text-align: center;
+     padding-top: 30px;
+     margin-bottom: 30px;
+}
+
+table {
+     border-collapse: collapse;
+     background-color: #fff;
+     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .03);
+     border-radius: 10px;
+     margin: auto;
+}
+
+th,
+td {
+     border: 1px solid #f2f2f2;
+     padding: 8px 20px;
+     text-align: center;
+     color: gray;
+}
+
+th {
+     text-transform: uppercase;
+     font-weight: 500;
+}
+
+td {
+     font-size: 15px;
+}
+
+.email-style {
+     font-size: 14px;
+     color: gray;
+     display: inline-block;
+     background: #f2f2f2;
+     -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+     border-radius: 2px;
+     line-height: 30px;
+     padding: 0 14px;
+}
+
+/* employees table end */
+/* pagination style */
+.w-5{
+     display: none;
+}
+.text-muted{
+     color: black !important;
+}
+.pagination{
+     padding: 5px;
+}
+/* end pagination style */
